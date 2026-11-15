@@ -1,0 +1,6 @@
+def_max[a,b]{
+  if[[a]>[b]]{ ret[a] }
+  ret[b]
+}
+print{"max(7,3) = "[max{7,3}]}
+print{"max(2,9) = "[max{2,9}]}

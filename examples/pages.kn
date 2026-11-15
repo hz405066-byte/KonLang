@@ -1,0 +1,32 @@
+kon_главная{
+  clear
+  print{"=== ГЛАВНАЯ ==="}
+  print{"1 — О программе"}
+  print{"2 — Выход"}
+}
+
+kon_о{
+  clear
+  print{"=== О ПРОГРАММЕ ==="}
+  print{"KonLang v5"}
+  print{"0 — Назад"}
+}
+
+kon_экран{
+  exec[kon_главная]
+}
+
+cycle{
+  exec[kon_экран]
+  input_0{"-> "}
+
+  if[[inp_0]=="1"]{
+    kon_экран{exec[kon_о]}
+  }
+  eli[[inp_0]=="2"]{
+    sc
+  }
+  eli[[inp_0]=="0"]{
+    kon_экран{exec[kon_главная]}
+  }
+}

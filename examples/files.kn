@@ -1,0 +1,4 @@
+writeFile{"note.txt","Привет, файл!"}
+print{"--- Содержимое ---"}
+print{openFile{"note.txt"}}
+delFile{"note.txt"}

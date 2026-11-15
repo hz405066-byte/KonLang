@@ -1,0 +1,7 @@
+set{menu={Привет,Случайное слово,Выход}}
+set{i=0}
+cycle[len[menu]]{
+  print{[i]" — "[menu.[i]]}
+  set{i=math{[i]+1}}
+}
+input_0{"Выбор: "}

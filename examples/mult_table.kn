@@ -1,0 +1,6 @@
+input_0{int"Число: "}
+set{i=1}
+cycle9{
+  print{[inp_0]" × "[i]" = "[math{int [inp_0]*[i]}]}
+  set{i=math{[i]+1}}
+}

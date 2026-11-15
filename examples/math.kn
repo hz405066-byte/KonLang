@@ -1,0 +1,4 @@
+print{"2 + 3 = "[math{2+3}]}
+print{"10 / 3 = "[math{10/3}]}
+print{"10 / 3 (int) = "[math{int 10/3}]}
+print{"10 / 3 (float) = "[math{float 10/3}]}

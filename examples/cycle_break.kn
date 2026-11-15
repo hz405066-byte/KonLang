@@ -1,0 +1,6 @@
+set{i=0}
+cycle{
+  print{"Шаг "[i]}
+  set{i=math{[i]+1}}
+  if[[i]>=3]{ sc }
+}

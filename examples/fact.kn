@@ -1,0 +1,6 @@
+def_fact[n]{
+  if[[n]<=1]{ ret[1] }
+  ret[math{int [n]*[fact{[n]-1}]}]
+}
+print{"5! = "[fact{5}]}
+print{"7! = "[fact{7}]}

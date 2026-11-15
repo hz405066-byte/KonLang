@@ -1,0 +1,3 @@
+input_0{int"Первое число: "}
+input_1{int"Второе число: "}
+print{"Сумма: "[math{int [inp_0]+[inp_1]}]}

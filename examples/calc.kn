@@ -1,0 +1,6 @@
+input_0{int"a = "}
+input_1{int"b = "}
+print{"a + b = "[math{int [inp_0]+[inp_1]}]}
+print{"a - b = "[math{int [inp_0]-[inp_1]}]}
+print{"a * b = "[math{int [inp_0]*[inp_1]}]}
+print{"a / b = "[math{float [inp_0]/[inp_1]}]}

@@ -1,0 +1,4 @@
+def_sum[a,b]{
+  ret[math{[a]+[b]}]
+}
+print{"2 + 3 = "[sum{2,3}]}

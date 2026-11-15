@@ -1,0 +1,5 @@
+inp[style_text]
+print{[bold{"Жирный"}]" и "[underline{"подчёркнутый"}]}
+print{[color{GREEN,"Зелёный текст"}]" "[color{RED,"красный"}]}
+print{[bg{BLUE," Белый на синем "}]}
+print{[style{BLINK,"Мигающий"}]" "[reverse{"Инверсия"}]}

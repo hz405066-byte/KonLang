@@ -1,0 +1,10 @@
+writeFile{"log.txt",""}
+
+cycle3{
+  input_0{"Строка: "}
+  appendFile{"log.txt",[inp_0]"\n"}
+}
+
+print{"--- Лог ---"}
+print{openFile{"log.txt"}}
+delFile{"log.txt"}

@@ -1,0 +1,10 @@
+def_scw[a]{
+  scr_size
+  ret[math{int [scr_w]/[a]}]
+}
+
+print{"╔"{"═"*[scw{4}]}"╗"}
+print{"║"{" "*[scw{4}]}"║"}
+print{"║"{"  KonLang"{" "*[math{int [scw{4}]-9}]}}"║"}
+print{"║"{" "*[scw{4}]}"║"}
+print{"╚"{"═"*[scw{4}]}"╝"}

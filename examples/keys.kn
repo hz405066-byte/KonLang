@@ -1,0 +1,6 @@
+print{"Нажмите клавишу (esc — выход):"}
+cycle{
+  key_k
+  print{"Клавиша: "[key_k]}
+  if[[key_k]=="esc"]{ sc }
+}

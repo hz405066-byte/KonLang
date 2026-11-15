@@ -1,0 +1,4 @@
+def_square[n]{
+  ret[math{int [n]*[n]}]
+}
+print{"Квадрат 5 = "[square{5}]}

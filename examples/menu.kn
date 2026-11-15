@@ -1,0 +1,32 @@
+set{menu={Привет,Случайное слово,Выход}}
+
+kon_меню{
+  clear
+  set{i=0}
+  cycle[len[menu]]{
+    print{[i]" — "[menu.[i]]}
+    set{i=math{[i]+1}}
+  }
+}
+
+cycle{
+  exec[kon_меню]
+  input_0{"Выбор: "}
+
+  if[[inp_0]=="0"]{
+    print{"Привет!"}
+    time100
+  }
+  eli[[inp_0]=="1"]{
+    random_0{раз,два,три,четыре,пять}
+    print{"Случайное: "[rand_0]}
+    time100
+  }
+  eli[[inp_0]=="2"]{
+    sc
+  }
+  els{
+    print{"Нет такого пункта"}
+    time100
+  }
+}
