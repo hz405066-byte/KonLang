@@ -235,4 +235,4 @@ go vet ./...
 `lists.kn`, `menu_list.kn`, `guess.kn`, `pages.kn`, `files.kn`, `styles.kn` и другие.
 Эталонный вывод зафиксирован в `tests/golden_test.go`.
 
-Справочник языка: `uploads/KonLang Справочник.txt` (вне каталога проекта).
+Справочник языка: `uploads/KonLang Справочник.txt`.
